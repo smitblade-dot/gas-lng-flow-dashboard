@@ -1,13 +1,13 @@
 {
   "name": "Global Gas & LNG Flow Intelligence",
   "short_name": "Gas & LNG Flows",
-  "description": "Global gas & LNG flow intelligence dashboard — production, liquefaction, pipelines, chokepoints, storage, disruptions, and weekly change tracking.",
+  "description": "Global gas & LNG flow intelligence dashboard — production, liquefaction, pipelines, chokepoints, storage, disruptions, and weekly change tracking. By Forged Titanium Ltd.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#0b1414",
-  "theme_color": "#0e6b6a",
+  "background_color": "#23272c",
+  "theme_color": "#23272c",
   "icons": [
     { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
