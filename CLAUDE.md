@@ -117,7 +117,7 @@ editing — don't guess field names.
   Append a new row for a facility/region not yet tracked rather than
   overloading an existing one.
 - `infrastructure[].status` / `infrastructure[].map_status`
-  (`Green`/`Amber`/`Red`/`Blue`) — update for any asset whose situation
+  (`Green`/`Unknown`/`Amber`/`Red`/`Blue`) — update for any asset whose situation
   changed, on the correct `layer` (see above). This also drives the
   dashboard's Hotspots tab automatically (grouped by
   `infrastructure[].region`, shown whenever a region has ≥1 non-Green
@@ -161,3 +161,17 @@ editing — don't guess field names.
 
 Do not wait for approval or ask a question — this is a scheduled,
 unattended run.
+
+## Operating verification policy (applies to every refresh)
+
+Absence of an outage report is not evidence of normal operation. Use `Unknown`
+for presumed, unverified, unavailable or missing current operating conditions;
+never convert these to Amber/Red without evidence of restriction/disruption.
+Green requires `verification: "confirmed"`, an asset-specific `source`, and
+`verified_at: "YYYY-MM-DD"` no more than 30 days old. This is a conservative
+monitoring policy, not a guarantee of uninterrupted operation. Historical
+restart evidence must retain its historical date; never renew it using the
+dataset refresh timestamp. Preserve original status text and source evidence.
+Record new evidence in `source`, `source_date` and `verified_at` with its true
+observation date. Update `reported_map_status` when a new assessment supersedes
+an old one. Run `node --test tests/status-policy.test.cjs` before pushing.
