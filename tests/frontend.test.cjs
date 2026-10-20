@@ -1,0 +1,10 @@
+const {JSDOM}=require('jsdom');const fs=require('fs'),assert=require('assert');
+const html=fs.readFileSync(require('path').join(__dirname,'../index.html'),'utf8').replace('<script src="./status-policy.js"></script>','<script>'+fs.readFileSync(require('path').join(__dirname,'../status-policy.js'),'utf8')+'</script>');
+const dom=new JSDOM(html,{runScripts:'dangerously',url:'http://localhost:8000',pretendToBeVisual:true});const w=dom.window;
+assert(w.document.querySelector('#map-legend').textContent.includes('Unverified / presumed'));
+assert.equal(w.document.querySelectorAll('#markers .status-Unknown').length,40);
+w.eval('buildHotspotMaps()');assert(w.document.querySelectorAll('.hotspot-card').length>0);
+w.eval('DATA.infrastructure=[{region:"Only unknown",map_status:"Unknown",latitude:1,longitude:1}];buildHotspotMaps()');assert.equal(w.document.querySelectorAll('.hotspot-card').length,1);
+w.eval('renderProduction()');let select=w.document.querySelector('#pr-status');assert(select.querySelector('[value="Unknown"]'));
+w.eval('renderRoutes()');assert(w.document.querySelector('#rt-status [value="Unknown"]'));
+console.log('DOM render, neutral markers, legend, filters and unknown-only hotspot: PASS');w.close();

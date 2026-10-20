@@ -1,0 +1,158 @@
+{
+  "baseline_commit": "c797c93",
+  "reviewed_at": "2026-10-08",
+  "records": [
+    {
+      "infrastructure_id": 7,
+      "name": "Hassi R'Mel field",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified (data gap, not a confirmed clean bill)",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 9,
+      "name": "Onshore/offshore gas fields",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 12,
+      "name": "Southern Highlands gas fields",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 16,
+      "name": "Offshore gas fields",
+      "original_status": "Presumed normal \u2014 aging asset base, no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 21,
+      "name": "Karachaganak / Tengiz associated gas",
+      "original_status": "Presumed normal",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 42,
+      "name": "Ichthys LNG",
+      "original_status": "Presumed normal \u2014 not confirmed for Sept 2026 (data gap)",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 45,
+      "name": "Sakhalin II LNG",
+      "original_status": "Presumed normal \u2014 no 2026-specific disruption identified (data gap)",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 47,
+      "name": "Tangguh LNG",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 48,
+      "name": "Bontang LNG",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 50,
+      "name": "Arzew LNG (GL1Z/GL2Z/GL3Z)",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 51,
+      "name": "Skikda LNG",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 53,
+      "name": "Qalhat / Sohar LNG",
+      "original_status": "Presumed normal \u2014 exports via the Gulf of Oman, less directly exposed to the Hormuz chokepoint",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 57,
+      "name": "PNG LNG",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 61,
+      "name": "Sn\u00f8hvit / Hammerfest LNG (Melk\u00f8ya)",
+      "original_status": "\"Sn\u00f8hvit Future\" life-extension project underway; precise Sept 2026 day-to-day operating status not independently confirmed",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 63,
+      "name": "Brunei LNG, Lumut",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 76,
+      "name": "Trans-Mediterranean (Transmed/Enrico Mattei)",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 77,
+      "name": "Medgaz",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 80,
+      "name": "Baltic Pipe",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    },
+    {
+      "infrastructure_id": 81,
+      "name": "Interconnector (UK-Belgium) / BBL (Netherlands-UK)",
+      "original_status": "Presumed normal \u2014 no 2026 disruption identified",
+      "original_map_status": "Green",
+      "decision": "Unknown",
+      "reason": "Original operating assessment explicitly lacks verification; no disruption inferred."
+    }
+  ]
+}
